@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/newudemy/static/css/main.ef237c51.chunk.css",
-    "main.js": "/newudemy/static/js/main.b07bc5cb.chunk.js",
-    "main.js.map": "/newudemy/static/js/main.b07bc5cb.chunk.js.map",
+    "main.css": "/newudemy/static/css/main.52d6c5bf.chunk.css",
+    "main.js": "/newudemy/static/js/main.13e96aa5.chunk.js",
+    "main.js.map": "/newudemy/static/js/main.13e96aa5.chunk.js.map",
     "runtime-main.js": "/newudemy/static/js/runtime-main.2d53c390.js",
     "runtime-main.js.map": "/newudemy/static/js/runtime-main.2d53c390.js.map",
     "static/js/2.57ba3fe6.chunk.js": "/newudemy/static/js/2.57ba3fe6.chunk.js",
     "static/js/2.57ba3fe6.chunk.js.map": "/newudemy/static/js/2.57ba3fe6.chunk.js.map",
     "index.html": "/newudemy/index.html",
-    "precache-manifest.5503027ae645029ae3fb1da9c1f77b71.js": "/newudemy/precache-manifest.5503027ae645029ae3fb1da9c1f77b71.js",
+    "precache-manifest.dfcb2af9d4ce1edc63dd85aa4a7aebac.js": "/newudemy/precache-manifest.dfcb2af9d4ce1edc63dd85aa4a7aebac.js",
     "service-worker.js": "/newudemy/service-worker.js",
-    "static/css/main.ef237c51.chunk.css.map": "/newudemy/static/css/main.ef237c51.chunk.css.map",
+    "static/css/main.52d6c5bf.chunk.css.map": "/newudemy/static/css/main.52d6c5bf.chunk.css.map",
     "static/js/2.57ba3fe6.chunk.js.LICENSE.txt": "/newudemy/static/js/2.57ba3fe6.chunk.js.LICENSE.txt",
     "static/media/App.css": "/newudemy/static/media/udemy_home.7dc11bef.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2d53c390.js",
     "static/js/2.57ba3fe6.chunk.js",
-    "static/css/main.ef237c51.chunk.css",
-    "static/js/main.b07bc5cb.chunk.js"
+    "static/css/main.52d6c5bf.chunk.css",
+    "static/js/main.13e96aa5.chunk.js"
   ]
 }
