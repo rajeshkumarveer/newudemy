@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/newudemy/static/css/main.bf6eb4e8.chunk.css",
-    "main.js": "/newudemy/static/js/main.95fbe7a1.chunk.js",
-    "main.js.map": "/newudemy/static/js/main.95fbe7a1.chunk.js.map",
+    "main.js": "/newudemy/static/js/main.3b97d8c4.chunk.js",
+    "main.js.map": "/newudemy/static/js/main.3b97d8c4.chunk.js.map",
     "runtime-main.js": "/newudemy/static/js/runtime-main.2d53c390.js",
     "runtime-main.js.map": "/newudemy/static/js/runtime-main.2d53c390.js.map",
     "static/js/2.57ba3fe6.chunk.js": "/newudemy/static/js/2.57ba3fe6.chunk.js",
     "static/js/2.57ba3fe6.chunk.js.map": "/newudemy/static/js/2.57ba3fe6.chunk.js.map",
     "index.html": "/newudemy/index.html",
-    "precache-manifest.2a454272f36d9fd4dbee463de82299d4.js": "/newudemy/precache-manifest.2a454272f36d9fd4dbee463de82299d4.js",
+    "precache-manifest.940c5c77296fb926e6bc4f339e417be0.js": "/newudemy/precache-manifest.940c5c77296fb926e6bc4f339e417be0.js",
     "service-worker.js": "/newudemy/service-worker.js",
     "static/css/main.bf6eb4e8.chunk.css.map": "/newudemy/static/css/main.bf6eb4e8.chunk.css.map",
     "static/js/2.57ba3fe6.chunk.js.LICENSE.txt": "/newudemy/static/js/2.57ba3fe6.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.2d53c390.js",
     "static/js/2.57ba3fe6.chunk.js",
     "static/css/main.bf6eb4e8.chunk.css",
-    "static/js/main.95fbe7a1.chunk.js"
+    "static/js/main.3b97d8c4.chunk.js"
   ]
 }
