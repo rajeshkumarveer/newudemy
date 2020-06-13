@@ -750,3 +750,51 @@ a:hover {
   margin: 0 0 10.5px;
   color: #686f7a;
 }
+
+/*Responsive*/
+.search_main {
+  width: 30vw !important;
+}
+@media only screen and (max-width: 950px) {
+  .search_main {
+    width: 25vw !important;
+  }
+  .nav_mid {
+    width: 63% !important;
+  }
+.navbar {
+  padding: 1.5vh 4vh !important;
+}
+.courses_inner .card-img-top {
+  height: 18vw !important;
+}
+.topsCatogories h2{
+  text-align: center;
+}
+.fs{
+  margin-top: 1%;
+  text-align: left !important;
+}
+.tinitiny1{
+  display: none;
+}
+.footer0 {
+  text-align: center;
+}
+}
+@media only screen and (max-width: 580px) {
+  .courses_inner .card-img-top {
+    height: 50vw !important;
+  }
+  .footer0 {
+    text-align: center;
+  }
+
+
+  .top_cate,.topsCatogories h2{
+    text-align: center;
+  }
+  .tinitiny{
+    display: none;
+  }
+}

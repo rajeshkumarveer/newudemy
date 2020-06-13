@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 export default function HomeCourses(props) {
     window.scrollTo(0, 0);
     //AIzaSyC2WZgt05bCCYXcTg0s-eQDkoR0Cy-ArZ8
-    let api = "AIzaSyC2WZgt05bCCYXcTg0s-eQDkoR0Cy-ArZ8";
+    let api = "AIzaSyBvFas6EV6COg_pZd4aCmG6J0ENmTamRKk";
     const [data, setData] = useState([]);
 
     useEffect(() => {
@@ -29,7 +29,7 @@ export default function HomeCourses(props) {
         <div>
             <div className="row courses_row">
                 
-                {data.map((e,i) =><div className="col-lg-2 col-md-4 col-xs-4 courses_inner" key={i} ><Link to={`/courses/${e.snippet.title.split(' ').join('-').split('|').join('')}`} onClick={()=>{assignSC(e)}} > <div className="card" >
+                {data.map((e,i) =><div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 courses_inner" key={i} ><Link to={`/courses/${e.snippet.title.split(' ').join('-').split('|').join('')}`} onClick={()=>{assignSC(e)}} > <div className="card" >
                 <img className="card-img-top" src={e.snippet.thumbnails.medium.url} alt="Card cap" />
                 <div className="card-body">
                     <h5 className="card-title">{e.snippet.title}</h5>
