@@ -22,7 +22,7 @@ function App() {
   }
   return (
     <div className="App" >
-      <Router basename="/newudemy">
+      <Router basename="/newudemy/">
         <Navbar islogin={islogin} setIslogin={setIslogin} searchVal={searchVal} setsearchVal={setsearchVal} setstartSearch={setstartSearch} data={data}  setData={setData} count={count}  setcount={setcount}/>
         {startSearch ? <Redirect to={`/search/${searchVal.split(' ').join('-').split('|').join('')}`} /> : null }
         <Switch>

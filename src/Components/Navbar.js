@@ -33,7 +33,7 @@ export default function Navbar(props) {
     return (
 
         <nav className="navbar navbar-expand-md navbar-light bg-light">
-            <a href="/"><img src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" className="navbar-brand" width="110vh" href="/" alt="Brand" /></a>
+            <a href="/newudemy/"><img src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" className="navbar-brand" width="110vh" href="/" alt="Brand" /></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -82,10 +82,10 @@ export default function Navbar(props) {
                             <button className="btn btn-outline-sign my-2 my-sm-0" type="button" onClick={(e) => { call("logout") }} data-toggle="modal" data-target="#exampleModal" id="open"><b>Sign Up</b></button>
                         </li>
                     </> : <><li className="nav-item">
-                        <a className="nav-link" href="/"><span><i className="fa fa-heart" aria-hidden="true"></i></span></a>
+                        <a className="nav-link" href="/newudemy/"><span><i className="fa fa-heart" aria-hidden="true"></i></span></a>
                     </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/"><span><i className="fa fa-bell" aria-hidden="true"></i></span></a>
+                                <a className="nav-link" href="/newudemy/"><span><i className="fa fa-bell" aria-hidden="true"></i></span></a>
                             </li>
                             <div className="dropdown">
                                 <a className="btn btn-secondary dropdown-toggle" href="/" role="button" id="dropdownMenuLink" data-toggle="dropdown" >{localStorage.getItem('email').toUpperCase()[0]}</a>
