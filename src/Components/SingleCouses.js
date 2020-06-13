@@ -63,8 +63,8 @@ export default function SingleCouses(props) {
                 </div>
             </div>
             <div className="container">
-                <div className="row">
-                    <div className="col-md-8">
+                <div className="row ">
+                    <div className="col-md-8 none">
                         <div className="row learn_box">
                             <div className="col-md-6">
                                 <h2>What you'll learn</h2>

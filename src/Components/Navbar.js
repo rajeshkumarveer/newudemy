@@ -28,11 +28,12 @@ export default function Navbar(props) {
         props.setsearchVal(e.target.innerText);
         props.setstartSearch(true);
     }
-    
     //<a className="nav-link" href="/cart">{props.data!==null&&props.data.length>0?<span style={{color: "#ec5252",fontSize : "2.3vh"}}><i className="fa fa-cart-plus" aria-hidden="true"></i></span>:<span><i className="fa fa-shopping-cart" aria-hidden="true"></i></span>}</a>
     return (
-
-        <nav className="navbar navbar-expand-md navbar-light bg-light">
+        <>
+        <div class="js-pride-month-gradient" style={{width: "100%", height: "1vh", background: "linear-gradient(90deg, rgb(100, 91, 83) 0%, rgb(235, 82, 82) 18.23%, rgb(247, 143, 47) 34.37%, rgb(244, 193, 81) 48.96%, rgb(82, 187, 118) 66.15%, rgb(38, 165, 215) 82.29%, rgb(224, 105, 183) 100%)"}}></div>
+        <Login props={props} />
+        <nav className="navbar navbar-expand-md navbar-light bg-light" >
             <a href="/newudemy/"><img src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" className="navbar-brand" width="110vh" href="/" alt="Brand" /></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -88,17 +89,18 @@ export default function Navbar(props) {
                                 <a className="nav-link" href="/newudemy/"><span><i className="fa fa-bell" aria-hidden="true"></i></span></a>
                             </li>
                             <div className="dropdown">
-                                <a className="btn btn-secondary dropdown-toggle" href="/" role="button" id="dropdownMenuLink" data-toggle="dropdown" >{localStorage.getItem('email').toUpperCase()[0]}</a>
+                                <a className="btn btn-secondary dropdown-toggle llout" href="/" role="button" id="dropdownMenuLink" data-toggle="dropdown" >{localStorage.getItem('email').toUpperCase()[0]}</a>
                                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
                                     <a className="dropdown-item" href="/" onClick={(e) => { changelout(e) }}>Logout</a>
                                 </div>
                             </div>
                         </>}
                 </ul>
-                <Login props={props} />
+                
 
             </div>
 
         </nav>
+        </>
     )
 }

@@ -400,6 +400,7 @@ a {
   font-size: 18px;
   color: #8a92a3;
   word-spacing: 0.8vh;
+  height: 100% !important;
 }
 .Main_SingleSC .offer{
   margin: 1.5vh;
@@ -750,6 +751,9 @@ a:hover {
   margin: 0 0 10.5px;
   color: #686f7a;
 }
+.seachcourse {
+  overflow: auto;
+}
 
 /*Responsive*/
 .search_main {
@@ -781,6 +785,23 @@ a:hover {
 .footer0 {
   text-align: center;
 }
+
+}
+@media only screen and (max-width: 1024px){
+  .searchContent {
+    margin: 0vh;
+    padding-top: 2.8rem;
+  }
+  .Main_SingleSC {
+    left: -20px;
+  }
+  .Main_SingleSC{
+    width: 105% !important;
+  }
+  .coursetit {
+    padding-right: 5px;
+    margin-right: 20px;
+  }
 }
 @media only screen and (max-width: 580px) {
   .courses_inner .card-img-top {
@@ -789,12 +810,132 @@ a:hover {
   .footer0 {
     text-align: center;
   }
-
-
   .top_cate,.topsCatogories h2{
     text-align: center;
   }
-  .tinitiny{
+  .tinitiny{ 
     display: none;
   }
+  .top_cate, .topsCatogories h2 {
+    text-align: center;
+    padding: 3%;
 }
+.imgsearchc {
+  height: 35vh !important;
+}
+.footer0 ,.footer1,.footer2{
+  padding: 1vh 5vh;
+}
+.Main_SingleSC{
+  position: relative !important;
+  top: 1vh !important;
+  left: 0vh !important;
+  width: 100% !important;
+}
+.none{
+  display: none;
+}
+.modal-backdrop {
+  opacity: 0 !important;
+  z-index: 5;
+}
+/* .Main_SingleSC{
+  background: white !important;
+    z-index: 5;
+    left: 0;
+    width: 100% !important;
+    top: -469.7vh !important;
+    border-radius: 0%;
+}
+.learn_box {
+  margin-top: 45vh !important;
+  margin-right: 0%;
+}
+.coursetit{
+  margin-right: 0%;
+} */
+.Requirements,.Description{
+  padding: 0 1vh;
+}
+.navbar{
+  z-index: 10;
+}
+
+}
+@media only screen and (max-width: 767px) {
+  .Main_SingleSC{
+    position: relative !important;
+    top: 1vh !important;
+    left: 0vh !important;
+    width: 100% !important;
+  }
+  .none{
+    display: none;
+  }
+  .input-group-prepend .btn{
+    margin: 0vh !important;
+  }
+  .llout{
+    width: 10% !important;
+  }
+  .dropdown-toggle{
+    width: 158%;
+    margin: 0 auto !important;
+  }
+  .dropdown-menu {
+    position: absolute !important;
+    width: 100%;
+    margin-left: 25%;
+  }
+  .navbar .form-inline {
+    width: 155%;
+  }
+  .navbar .form-inline .input-group {
+    width: 100% !important;
+    margin: 0 5vh;
+  }
+  .navbar {
+    text-align: center !important;
+  }
+  .navbar-nav{
+    width: 100% !important;
+  }
+  .navbar-collapse{
+    position: absolute;
+    background: white;
+    top: 8.8vh;
+    left: 0px;
+    z-index: 5;
+    padding-bottom: 1vh;
+    width: 100% !important;
+    box-shadow: 0 5px 10px rgba(116, 114, 114, 0.19), 0 3px 3px rgba(116, 114, 114, 0.23);
+  }
+  #navbarNav ul li {
+    padding: .5vh 0.5vw;
+  }
+  .modal-dialog {
+    width:90%;
+    margin: 0% auto !important;
+    margin-top: 15% !important;
+}
+.modal{
+  background-color: rgba(0, 0, 0, 0.616) !important;
+}
+.modal-backdrop {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+.increament{
+  left:50%
+}
+.closez{
+  left: 92%;
+}
+.modal-content {
+  width: 100%;
+  height: 100%;
+}
+}
+
+

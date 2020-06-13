@@ -70,7 +70,7 @@ export default function MidHome(props) {
                     <div className="col-md-3 col-sm-3 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-fire" aria-hidden="true" ></i>Development</span></div>
                     <div className="col-md-3 col-sm-4 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-id-card" aria-hidden="true"></i>Business course</span></div>
                     <div className="col-md-3 col-sm-4 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-desktop" aria-hidden="true"></i>IT and Software</span></div>
-                    <div className="col-md-3 col-sm-3 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-pen" aria-hidden="true"></i>Design</span></div><br /><br />
+                    <div className="col-md-3 col-sm-3 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-pen" aria-hidden="true"></i>Design</span></div><br class="tinitiny"/><br class="tinitiny" />
                     <div className="col-md-3 col-sm-4 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-users" aria-hidden="true"></i>Marketing</span></div>
                     <div className="col-md-3 col-sm-4 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-book" aria-hidden="true"></i>Personal Development</span></div>
                     <div className="col-md-3 col-sm-3 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-camera" aria-hidden="true"></i>Photography</span></div>
