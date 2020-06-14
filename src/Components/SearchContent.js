@@ -7,7 +7,7 @@ export default function SearchContent(props) {
     let { topicId } = useParams();
     const [data, setData] = useState([]);
     //AIzaSyC2WZgt05bCCYXcTg0s-eQDkoR0Cy-ArZ8
-    let api = "AIzaSyBvFas6EV6COg_pZd4aCmG6J0ENmTamRKk";
+    let api = "AIzaSyB1hD7YASHt4QAPV7mv9a1Thn13shILn74";
     useEffect(() => {
         axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${topicId}&key=${api}`)
             .then(res => {

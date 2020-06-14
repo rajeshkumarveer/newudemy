@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 export default function HomeCourses(props) {
     window.scrollTo(0, 0);
     //AIzaSyC2WZgt05bCCYXcTg0s-eQDkoR0Cy-ArZ8
-    let api = "AIzaSyBvFas6EV6COg_pZd4aCmG6J0ENmTamRKk";
+    let api = "AIzaSyB1hD7YASHt4QAPV7mv9a1Thn13shILn74";
     const [data, setData] = useState([]);
 
     useEffect(() => {

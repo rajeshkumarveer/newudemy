@@ -39,12 +39,12 @@ export default function Cart(props) {
                         <div className="cartcourse">
                             <p className="courseno">{props.data.length} Course in Cart</p>
                             {props.data.map((e) => <div className="row box">
-                                <div className="col-md-2">
+                                <div className="col-2 donss">
                                     <Link to={`/courses/${e.snippet.title.split(' ').join('-').split('|').join('')}`} onClick={() => { assignSC(e) }}>
                                         <img src={e.snippet.thumbnails.high.url} alt="cool" className="imgsearchc" />
                                     </Link>
                                 </div>
-                                <div className="col-md-8">
+                                <div className="col-8">
                                     <div className="row">
                                         <div className="col-9 ">
                                             <Link to={`/courses/${e.snippet.title.split(' ').join('-').split('|').join('')}`} onClick={() => { assignSC(e) }}>
@@ -57,7 +57,7 @@ export default function Cart(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-2">
+                                <div className="col-2">
                                     <Link to={`/courses/${e.snippet.title.split(' ').join('-').split('|').join('')}`} onClick={() => { assignSC(e) }}>
                                         <div className="sideeff"><b className="rup">₹ 455 </b><br /><del>₹12,160</del></div>
                                     </Link>

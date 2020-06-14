@@ -66,7 +66,7 @@ export default function MidHome(props) {
             </div>
             <div className="topsCatogories">
                 <h2>Top categories</h2>
-                <div className="row">
+                <div className="row"> 
                     <div className="col-md-3 col-sm-3 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-fire" aria-hidden="true" ></i>Development</span></div>
                     <div className="col-md-3 col-sm-4 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-id-card" aria-hidden="true"></i>Business course</span></div>
                     <div className="col-md-3 col-sm-4 top_cate" onClick={(e)=>TopicSearch(e)}><span><i className="fa fa-desktop" aria-hidden="true"></i>IT and Software</span></div>
