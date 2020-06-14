@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/newudemy/precache-manifest.dfcb2af9d4ce1edc63dd85aa4a7aebac.js"
+  "/newudemy/precache-manifest.9deabf4a694d8239a787af9669f76a82.js"
 );
 
 self.addEventListener('message', (event) => {

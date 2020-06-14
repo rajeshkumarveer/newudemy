@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "938fae3f88bf1129c4e032397f301fa3",
+    "revision": "d27cf27fee787badfd629d9005e3baa8",
     "url": "/newudemy/index.html"
   },
   {
-    "revision": "424ea76ae00daee5f6d4",
-    "url": "/newudemy/static/css/main.52d6c5bf.chunk.css"
+    "revision": "b12263eb90d4e7cdfba5",
+    "url": "/newudemy/static/css/main.a73123c3.chunk.css"
   },
   {
     "revision": "9d7b86ba2cb9e7f55934",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/newudemy/static/js/2.57ba3fe6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "424ea76ae00daee5f6d4",
-    "url": "/newudemy/static/js/main.13e96aa5.chunk.js"
+    "revision": "b12263eb90d4e7cdfba5",
+    "url": "/newudemy/static/js/main.52796404.chunk.js"
   },
   {
     "revision": "20f81a72ff7c4a86f799",
