@@ -57,7 +57,7 @@ export default function Cart(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-2">
+                                <div className="col-2 minnz">
                                     <Link to={`/courses/${e.snippet.title.split(' ').join('-').split('|').join('')}`} onClick={() => { assignSC(e) }}>
                                         <div className="sideeff"><b className="rup">₹ 455 </b><br /><del>₹12,160</del></div>
                                     </Link>

@@ -1,4 +1,4 @@
-body{
+body,html{
   overflow-x: hidden;
 }
 a {
@@ -104,12 +104,11 @@ a {
 
 }
 .search_main1{
-  width: 30vw !important;
+  width: 32vw !important;
   background-color: white  !important;
   border:none !important;
   box-shadow: none !important;
   padding: 3.3vh 2% !important;
-  width: 60vh !important;
   border-radius: 3px 0 0 3px !important;
 }
 .btn-outline-danger1{
@@ -754,6 +753,11 @@ a:hover {
 .seachcourse {
   overflow: auto;
 }
+.embed-responsive {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
 /*Responsive*/
 .search_main {
@@ -762,6 +766,9 @@ a:hover {
 @media only screen and (max-width: 950px) {
   .search_main {
     width: 25vw !important;
+  }
+  .search_main1 {
+    width: 50vw !important;
   }
   .nav_mid {
     width: 63% !important;
@@ -805,6 +812,8 @@ a:hover {
     margin-right: 20px;
   }
 }
+
+
 @media only screen and (max-width: 580px) {
   .courses_inner .card-img-top {
     height: 50vw !important;
@@ -821,6 +830,10 @@ a:hover {
   .top_cate, .topsCatogories h2 {
     text-align: center;
     padding: 3%;
+}
+.minnz,.cartcourse .remove ,.cartcourse .sideeff{
+  padding: 0% 0% 0% 0% !important;
+  text-align: center !important;
 }
 .imgsearchc {
   height: 35vh !important;
