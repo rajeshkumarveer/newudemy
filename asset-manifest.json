@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/newudemy/static/css/main.a73123c3.chunk.css",
-    "main.js": "/newudemy/static/js/main.52796404.chunk.js",
-    "main.js.map": "/newudemy/static/js/main.52796404.chunk.js.map",
+    "main.css": "/newudemy/static/css/main.9a6ad711.chunk.css",
+    "main.js": "/newudemy/static/js/main.d488d7ce.chunk.js",
+    "main.js.map": "/newudemy/static/js/main.d488d7ce.chunk.js.map",
     "runtime-main.js": "/newudemy/static/js/runtime-main.2d53c390.js",
     "runtime-main.js.map": "/newudemy/static/js/runtime-main.2d53c390.js.map",
     "static/js/2.57ba3fe6.chunk.js": "/newudemy/static/js/2.57ba3fe6.chunk.js",
     "static/js/2.57ba3fe6.chunk.js.map": "/newudemy/static/js/2.57ba3fe6.chunk.js.map",
     "index.html": "/newudemy/index.html",
-    "precache-manifest.9deabf4a694d8239a787af9669f76a82.js": "/newudemy/precache-manifest.9deabf4a694d8239a787af9669f76a82.js",
+    "precache-manifest.daa52e2925e0ba71908b31979bb2b3f5.js": "/newudemy/precache-manifest.daa52e2925e0ba71908b31979bb2b3f5.js",
     "service-worker.js": "/newudemy/service-worker.js",
-    "static/css/main.a73123c3.chunk.css.map": "/newudemy/static/css/main.a73123c3.chunk.css.map",
+    "static/css/main.9a6ad711.chunk.css.map": "/newudemy/static/css/main.9a6ad711.chunk.css.map",
     "static/js/2.57ba3fe6.chunk.js.LICENSE.txt": "/newudemy/static/js/2.57ba3fe6.chunk.js.LICENSE.txt",
     "static/media/App.css": "/newudemy/static/media/udemy_home.7dc11bef.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2d53c390.js",
     "static/js/2.57ba3fe6.chunk.js",
-    "static/css/main.a73123c3.chunk.css",
-    "static/js/main.52796404.chunk.js"
+    "static/css/main.9a6ad711.chunk.css",
+    "static/js/main.d488d7ce.chunk.js"
   ]
 }
